@@ -58,13 +58,13 @@ driver-name	team	manufacturer	time-1	time-2	flag
 
 Example:
 
-driver-1	team-1	manufacturer-1	00:16:00.361	00:03:08.000	0
-driver-2	team-2	manufacturer-2	00:16:01.356	00:03:07.158	0
-//-------	----------	------------	------------	------------	JOKER
-driver-3	team-3	manufacturer-3	00:19:00.000	09:00:00.000	4
-driver-4	team-4	manufacturer-4	00:19:00.000	09:00:00.000	4
-//------	----------	------------	------------	------------	NO-SHOW
-driver-5	team-5	manufacturer-5	00:19:00.000	09:00:00.000	0
+driver-1	team-1	manufacturer-1	00:16:00.361	00:03:08.000	0 \
+driver-2	team-2	manufacturer-2	00:16:01.356	00:03:07.158	0 \
+//-------	----------	------------	------------	------------	JOKER \
+driver-3	team-3	manufacturer-3	00:19:00.000	09:00:00.000	4 \
+driver-4	team-4	manufacturer-4	00:19:00.000	09:00:00.000	4 \
+//------	----------	------------	------------	------------	NO-SHOW \
+driver-5	team-5	manufacturer-5	00:19:00.000	09:00:00.000	0 \
 driver-6	team-6	manufacturer-6	00:19:00.000	09:00:00.000	0
 
 Note that lines after "NO-SHOW" will be ignored.
